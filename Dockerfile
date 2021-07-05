@@ -21,3 +21,4 @@ USER jenkins
 
 #https://plugins.jenkins.io/blueocean/
 RUN jenkins-plugin-cli --plugins blueocean:1.24.7
+#1
