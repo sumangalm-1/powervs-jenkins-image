@@ -21,5 +21,5 @@ RUN apt-get update && apt-get install -y docker-ce-cli
 USER jenkins
 
 #https://plugins.jenkins.io/blueocean/
-RUN jenkins-plugin-cli --plugins blueocean:1.24.7
+RUN jenkins-plugin-cli --plugins blueocean:1.24.8
 #2
