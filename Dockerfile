@@ -1,4 +1,3 @@
-#FROM jenkins/jenkins:lts
 FROM jenkins/jenkins:lts-jdk11
 
 MAINTAINER rpsene@br.ibm.com
