@@ -2,6 +2,8 @@ FROM jenkins/jenkins:lts-jdk11
 
 MAINTAINER rpsene@br.ibm.com
 
+LABEL LATEST_UPDATE=Jan,17,2022
+
 USER root
 
 RUN apt-get update && apt-get upgrade -y && apt-get install -y apt-transport-https \
