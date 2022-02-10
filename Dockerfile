@@ -2,7 +2,7 @@ FROM jenkins/jenkins:lts-jdk11
 
 MAINTAINER rpsene@br.ibm.com
 
-LABEL LATEST_UPDATE=Jan,17,2022
+LABEL LATEST_UPDATE=Feb,10,2022
 
 USER root
 
