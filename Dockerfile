@@ -1,8 +1,8 @@
 FROM jenkins/jenkins:lts-jdk11
 
-MAINTAINER rpsene@br.ibm.com,Sumangal.Mugalikar@ibm.com
+MAINTAINER rpsene@br.ibm.com
 
-LABEL LATEST_UPDATE=Mar,23,2022
+LABEL LATEST_UPDATE=April,12,2022
 
 USER root
 
@@ -24,4 +24,4 @@ USER jenkins
 #https://plugins.jenkins.io/blueocean/
 RUN jenkins-plugin-cli --plugins blueocean:1.25.3
 
-#This is a base Jenkins image used to manage PowerVS resources.
+### This is a base Jenkins image used to manage PowerVS resources.
