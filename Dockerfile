@@ -22,6 +22,6 @@ RUN apt-get update && apt-get install -y docker-ce-cli
 USER jenkins
 
 #https://plugins.jenkins.io/blueocean/
-RUN jenkins-plugin-cli --plugins blueocean:1.25.5
+RUN jenkins-plugin-cli --plugins blueocean:1.25.6
 
 ### This is a base Jenkins image used to manage PowerVS resources.
