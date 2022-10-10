@@ -1,8 +1,8 @@
 FROM jenkins/jenkins:lts-jdk11
 
-MAINTAINER rpsene@br.ibm.com
+MAINTAINER Sumangal.Mugalikar@ibm.com
 
-LABEL LATEST_UPDATE=September,22,2022
+LABEL LATEST_UPDATE=October,10,2022
 
 USER root
 
